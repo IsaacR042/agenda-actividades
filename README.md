@@ -1,16 +1,37 @@
-# React + Vite
+# Agenda de Actividades
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Aplicación web local para gestionar actividades, fechas de entrega,
+notas y tareas completadas.
 
-Currently, two official plugins are available:
+## Tecnologías
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- Vite
+- JavaScript
+- CSS
+- LocalStorage
+- Git
+- GitHub
 
-## React Compiler
+## Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Actualmente el proyecto se encuentra en desarrollo.
 
-## Expanding the Oxlint configuration
+Las funcionalidades previstas son:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Registrar actividades
+- Establecer fecha de entrega
+- Agregar notas o información
+- Marcar actividades como completadas
+- Marcar actividades como pendientes
+- Editar actividades
+- Eliminar actividades
+- Filtrar actividades
+- Guardar información localmente
+
+## Instalación
+
+Clonar el repositorio:
+
+```bash
+git clone https://github.com/IsaacR042/agenda-actividades.git
