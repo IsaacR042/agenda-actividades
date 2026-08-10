@@ -1,11 +1,14 @@
+import Home from "./pages/Home";
+import "./styles/App.css";
+
 function App() {
   return (
-    <div>
-      <h1>Agenda de Actividades</h1>
+    <div className="app">
+      <header>
+        <h1>Agenda de Actividades</h1>
+      </header>
 
-      <p>
-        Aplicación para organizar actividades y fechas de entrega.
-      </p>
+      <Home />
     </div>
   );
 }
